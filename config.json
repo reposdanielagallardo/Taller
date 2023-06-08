@@ -1,0 +1,19 @@
+{
+    "source": [
+        "tokens/**/*.json"
+    ],
+    "platforms": {
+        "scss": {
+            "opening_character": "\\{\\{",
+            "closing_character": "\\}\\}",
+            "transformGroup": "scss",
+            "buildPath": "build/scss/",
+            "files": [
+                {
+                    "destination": "_variables.scss",
+                    "format": "scss/variables"
+                }
+            ]
+        }
+    }
+}
